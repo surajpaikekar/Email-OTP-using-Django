@@ -1,0 +1,19 @@
+{% load crispy_forms_tags %}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div class="container">
+            <form method="post">
+                {% csrf_token %}
+                {{ form}}
+            </form>
+        </div>
+
+
+</body>
+</html>
