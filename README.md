@@ -11,7 +11,9 @@
   - Here I've used python-dotenv librrary to keep my secret in codebase. You can use any other one as per your requirements. You just need to follow their documentation to integrate it in your codebase.
   - How to run the code?
       - Download the code in zip format. Unzip it at specified location.
-      - Create and activate the virutal environment using <span style="color:red; font-weight:bold;">py -m venv venv, py venv\scripts\activate</span>
+      - Create and activate the virutal environment using
+        ```diff
+          - py -m venv venv, py venv\scripts\activate
       - install the required dependencies using pip such as *django, djangorestframework etc. python-dotenv*
       - test using Postman or browser at localhhost.
       - That's it.
