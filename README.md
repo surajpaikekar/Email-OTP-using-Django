@@ -13,7 +13,8 @@
       - Download the code in zip format. Unzip it at specified location.
       - Create and activate the virutal environment using
         ```diff
-          - py -m venv venv, py venv\scripts\activate
+          - py -m venv venv
+          - py venv\scripts\activate
       - install the required dependencies using pip such as *django, djangorestframework etc. python-dotenv*
       - test using Postman or browser at localhhost.
       - That's it.
